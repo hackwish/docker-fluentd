@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+  imed-fluentd:
+    image: docker-fluentd
+    ports:
+      - 24224:24224
+      - 24224:24224/udp
+    extra_hosts:
+      - "elasticsearch:172.16.14.83"

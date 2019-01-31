@@ -1,0 +1,4 @@
+*.off
+*.tmp
+*.dpkg-dist
+*.log

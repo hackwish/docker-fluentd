@@ -1,7 +1,7 @@
 version: '2'
 
 services:
-  imed-fluentd:
+  fluentd:
     image: docker-fluentd
     ports:
       - 24224:24224

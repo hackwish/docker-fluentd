@@ -2,3 +2,5 @@
 *.tmp
 *.dpkg-dist
 *.log
+
+docker-compose.yml
